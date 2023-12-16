@@ -1983,6 +1983,10 @@ h6 {
   #logo {
     margin-left: 20px;
   }
+
+  .banner-content {
+  margin-top: -250px;
+}
 }
 
 #header #logo h1 {
