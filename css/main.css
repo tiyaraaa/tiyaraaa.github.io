@@ -6,6 +6,25 @@
 /* =================================== */
 /*  Basic Style 
 /* =================================== */
+::-webkit-scrollbar {
+    width: 5px; /* Lebar track scroll */
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; /* Warna latar belakang track */
+  }
+
+  /* Untuk thumb atau pegangan scroll */
+  ::-webkit-scrollbar-thumb {
+    background: white; /* Warna latar belakang thumb */
+    border-radius: 7px; /* Bentuk thumb */
+  }
+
+  /* Hover effect untuk thumb */
+  ::-webkit-scrollbar-thumb:hover {
+    background: silver; /* Warna latar belakang thumb saat dihover */
+  }
+
 ::-moz-selection {
   /* Code for Firefox */
   background-color: #b68834;
