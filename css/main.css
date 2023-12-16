@@ -7,18 +7,18 @@
 /*  Basic Style 
 /* =================================== */
 ::-webkit-scrollbar {
-    width: 5px; /* Lebar track scroll */
-  }
+  width: 5px;
+  cursor: pointer;
+}
 
-  ::-webkit-scrollbar-track {
-    background: #f1f1f1; /* Warna latar belakang track */
-  }
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
 
-  /* Untuk thumb atau pegangan scroll */
-  ::-webkit-scrollbar-thumb {
-    background: white; /* Warna latar belakang thumb */
-    border-radius: 7px; /* Bentuk thumb */
-  }
+::-webkit-scrollbar-thumb {
+  background: #c3b091;
+  border-radius: 6px;
+}
 
   /* Hover effect untuk thumb */
   ::-webkit-scrollbar-thumb:hover {
